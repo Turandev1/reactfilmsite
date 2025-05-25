@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { Globalcontext } from "./context/globalstate";
-import Watched from "./watched";
 
 function Resultcart({ movie }) {
   const { addmovietowatchlist, watched, watchlist, addmovietowatched } =
